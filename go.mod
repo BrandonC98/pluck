@@ -1,4 +1,4 @@
-module pluck
+module github.com/brandonc98/pluck
 
 go 1.27.0
 

@@ -12,8 +12,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"pluck/internal/filter"
-	"pluck/internal/vault"
+	"github.com/brandonc98/pluck/internal/filter"
+	"github.com/brandonc98/pluck/internal/vault"
 )
 
 // Config holds the search parameters, loaded from a YAML file and/or flags.

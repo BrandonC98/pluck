@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"pluck/internal/filter"
-	"pluck/internal/frontmatter"
+	"github.com/brandonc98/pluck/internal/filter"
+	"github.com/brandonc98/pluck/internal/frontmatter"
 )
 
 // Scan walks root and returns every file, sorted by path. Hidden files and

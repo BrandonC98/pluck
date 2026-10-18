@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"pluck/cmd"
+	"github.com/brandonc98/pluck/cmd"
 )
 
 func main() {

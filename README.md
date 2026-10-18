@@ -31,15 +31,22 @@ pluck --config blog.yaml --copy
 
 ## Install
 
-Requires Go 1.27 or later. Go can be installed with Homebrew from the
-included `Brewfile`:
+Requires Go 1.27 or later. Install the latest version onto your `PATH`
+(into `$(go env GOPATH)/bin`):
 
 ```sh
+go install github.com/brandonc98/pluck@latest
+```
+
+Or build it from a clone. Go can be installed with Homebrew from the included
+`Brewfile`:
+
+```sh
+git clone https://github.com/brandonc98/pluck.git
+cd pluck
 make deps    # brew bundle: installs Go
 make build   # builds bin/pluck
 ```
-
-Or install it onto your `PATH` with `go install .` from the repository root.
 
 ## How matching works
 
