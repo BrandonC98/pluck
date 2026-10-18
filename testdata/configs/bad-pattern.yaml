@@ -1,0 +1,4 @@
+source: vault
+filters:
+  filenames:
+    - "[unclosed"

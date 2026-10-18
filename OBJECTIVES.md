@@ -1,0 +1,11 @@
+# Objective
+- Create an CLI tool for finding files of any type (frontmatter filters apply to markdown files).
+- These are the options for finding
+    - Files based on the directory they are in. There should be support for glob patterns (including `**`).
+    - Based on file name
+    - Field inside the yaml frontmatter at the top of a markdown file
+- All patterns are glob patterns (not regex)
+- The CLI tool should support a passing in a yaml config file that defines what the search paramaters of the CLI are when it runs
+- The CLI tool should support a option for drying that will output the files meeting the criteria
+- The CLI tool should have a option for copy files to target directory
+- the main use case for this tool is to find files stored in an obsidian vault

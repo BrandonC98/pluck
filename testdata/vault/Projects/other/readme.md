@@ -1,0 +1,4 @@
+---
+scope: other
+---
+# Other project

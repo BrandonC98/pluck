@@ -1,0 +1,8 @@
+# Relative paths resolve against the working directory (testdata/).
+source: vault
+filters:
+  directories:
+    - "Blog/**"
+  frontmatter:
+    - field: tags
+      pattern: "share"

@@ -1,0 +1,4 @@
+source: vault
+filters:
+  frontmatter:
+    - pattern: "core"
